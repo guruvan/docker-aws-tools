@@ -1,4 +1,5 @@
 FROM debian:jessie
+# IMAGE guruvan/docker-aws-tools
 RUN apt-get update
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get install -y --no-install-recommends wget openjdk-7-jre-headless git-core unzip
